@@ -1,0 +1,117 @@
+.plan-details {
+  min-height: calc(100vh - 80px);
+  padding: 2rem 0;
+}
+
+.plan-details-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.plan-details-card h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.trainer-link {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.trainer-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.trainer-link a:hover {
+  text-decoration: underline;
+}
+
+.plan-content {
+  margin-bottom: 2rem;
+}
+
+.description {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.plan-info {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.value {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.plan-preview {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.price-preview {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.preview-message {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.subscribe-btn {
+  display: block;
+  width: 100%;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.subscribe-btn:hover {
+  background-color: #229954;
+}
+
+.subscribed-badge {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+}
+
